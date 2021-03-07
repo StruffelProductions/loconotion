@@ -1,0 +1,10 @@
+## Loconotion Site Configuration File ##
+# full .toml configuration example file to showcase all of Loconotion's available settings
+# check out https://github.com/toml-lang/toml for more info on the toml format
+
+# name of the folder that the site will be generated in
+name = "CC0TexturesDocs"
+
+# the notion.so page to being parsing from. This page will become the index.html
+# of the generated site, and loconotion will parse all sub-pages present on the page
+page = "https://www.notion.so/cc0textures/The-CC0-Textures-Docs-a96adf47efd1432ba471088ec3f1e0d3"
