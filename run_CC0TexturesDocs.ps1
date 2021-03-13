@@ -1,6 +1,6 @@
 cd $PSScriptRoot
 pip install -r .\requirements.txt
-$WebFolder="Z:\docs.cc0textures.com\"
+$WebFolder="\\struffel.synology.me\CC0 Textures\Notion\CC0TexturesDocs\"
 $Toml = "CC0TexturesDocs.toml"
 
 if ($WebFolder | Test-Path) {
