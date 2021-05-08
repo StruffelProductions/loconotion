@@ -22,3 +22,7 @@ if($?){
     Copy-item -Force -Recurse -Verbose ".\dist\CC0TexturesGuide\*" -Destination $WebFolder
 }
 Pause
+cd $WebFolder
+git add -A
+git commit -m "$(Get-Date)"
+Pause
